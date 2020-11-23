@@ -1,0 +1,155 @@
+/*Texto*/
+div.legends_text
+{
+    width: 80%;
+    height: 200px;
+    margin-bottom: 20px;
+}
+div.legends_text h3
+{
+    font-size: 35px;
+    font-weight: 150;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+div.legends_text p 
+{
+    font-style: normal;
+    font-size: 20px;
+}
+
+/*Imagenes de Leyendas*/
+div.legends_pics
+{
+    height: 200px;
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 5px 10px 5px grey;
+    border-radius: 10px;
+}
+div.legends_pics#bangalore_pic
+{
+    background-image: url("../src/images/bangalore.jpg");
+} 
+div.legends_pics#bloodhound_pic
+{
+    background-image: url("../src/images/bloodhound.jpg");
+} 
+div.legends_pics#caustic_pic
+{
+    background-image: url("../src/images/caustic.jpg");
+} 
+div.legends_pics#crypto_pic
+{
+    background-image: url("../src/images/crypto.jpg");
+} 
+div.legends_pics#gibraltar_pic
+{
+    background-image: url("../src/images/gibraltar.png");
+} 
+div.legends_pics#horizon_pic
+{
+    background-image: url("../src/images/horizon.jpg");
+} 
+div.legends_pics#lifeline_pic
+{
+    background-image: url("../src/images/lifeline.jpg");
+} 
+div.legends_pics#loba_pic
+{
+    background-image: url("../src/images/loba.jpg");
+}   
+div.legends_pics#mirage_pic
+{
+    background-image: url("../src/images/mirage.jpg");
+    background-position: -95px 0px !important;
+} 
+
+div.legends_pics#octane_pic
+{
+    background-image: url("../src/images/octane.jpg");
+} 
+
+div.legends_pics#pathfinder_pic
+{
+    background-image: url("../src/images/pathfinder.jpg");
+} 
+div.legends_pics#rampart_pic
+{
+    background-image: url("../src/images/rampart.jpg");
+    background-position: -110px 0px!important;
+} 
+div.legends_pics#revenant_pic
+{
+    background-image: url("../src/images/revenant.jpg");
+} 
+div.legends_pics#wattson_pic
+{
+    background-image: url("../src/images/wattson.jpg");
+} 
+div.legends_pics#wraith_pic
+{
+    background-image: url("../src/images/wraith.jpg");
+} 
+
+/*Legends Icon*/
+div.tracker_legends_icon
+{
+    height: 20px;
+    width: 20px;
+    float: left;
+    background-image: url("../src/images/tracker_icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: black;
+    box-shadow: 1px 1px 2px grey;
+    cursor: pointer;
+    margin-right: 5px;
+}
+div.attack_legends_icon
+{
+    height: 20px;
+    width: 20px;
+    float: left;
+    background-image: url("../src/images/bullets_icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: black;
+    box-shadow: 1px 1px 2px grey;
+    cursor: pointer;
+    margin-right: 5px;
+}
+div.support_legends_icon
+{
+    height: 20px;
+    width: 20px;
+    float: left;
+    background-image: url("../src/images/cross_icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: black;
+    box-shadow: 1px 1px 2px grey;
+    cursor: pointer;
+    margin-right: 5px;
+}
+div.defense_legends_icon
+{
+    height: 20px;
+    width: 20px;
+    float: left;
+    background-image: url("../src/images/shield_icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: black;
+    box-shadow: 1px 1px 2px grey;
+    cursor: pointer;
+    margin-right: 5px;
+}

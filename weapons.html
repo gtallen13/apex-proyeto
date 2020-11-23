@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Weapons Page">
+        <meta name="author" content="George Allen">
+        <meta name= "keywords" content="blog, apex legends, videogame, ps4,xbox,nintengo,PC">
+        <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+        <link rel = "stylesheet" href = "./links/main.css" type="text/css">
+        <link rel = "stylesheet" href = "./links/weapons.css" type="text/css">
+        <title>Apex Legends</title>
+    </head>
+    <body>
+        <!--Menu Section-->
+        <nav class = "menu">
+            <ul>
+                <a href="./index.html"><img id="logo_menu" src="./src/images/apex-white-nav-logo.svg"></a>
+                <li><a href="./legends.html"> Legends </a></li>
+                <li><a href="./weapons.html"class="on-page"> Weapons </a></li>
+                <li><a href="./gear.html"> Gear </a></li>
+                <li><a href="./news.html"> News </a></li>
+                <li><a href="./aboutme.html"> About Me</a></li>
+                <li><a id="download" href="https://www.ea.com/games/apex-legends" target="_blank"> Official Website</a></li>
+            </ul>
+        </nav> 
+        <section class="secciones" id="seccion_weapons">
+            <!--Sidebar-->
+            <section class="seccion_lateral esconder" id="sidebar">
+                <a href="#ars_image"><img src="./src/images/ars.svg " class="weapons_image_sidebar" id="ars_image_sidebar" onclick="esconderSecciones('ars_image','weapons_info_ars')"> </a>
+                <a href="#smgs_image"><img src="./src/images/smgs.svg" class="weapons_image_sidebar" id="smgs_image_sidebar" onclick="esconderSecciones('smgs_image', 'weapons_info_smgs')"> </a>
+                <a href="#lmgs_image"><img src="./src/images/lmgs.svg" class="weapons_image_sidebar" id="lmgs_image_sidebar" onclick="esconderSecciones('lmgs_image','weapons_info_lmgs')"> </a>
+                <a href="#snipers_image"><img src="./src/images/snipers.svg" class="weapons_image_sidebar" id="snipers_image_sidebar" onclick="esconderSecciones('snipers_image','weapons_info_snipers')"> </a>
+                <a href="#shotguns_image"><img src="./src/images/shotguns.svg" class="weapons_image_sidebar" id="shotguns_image_sidebar" onclick="esconderSecciones('shotguns_image', 'weapons_info_shotguns')"> </a>
+                <a href="#pistols_image"><img src="./src/images/pistols.svg" class="weapons_image_sidebar" id="pistols_image_sidebar" onclick="esconderSecciones('pistols_image', 'weapons_info_pistols')"> </a>
+            </section>
+            <div class="weapons">
+                <h2>Lock and Load</h2>
+                <div class="weapons_row" id="row1"> 
+                    <!--ARs-->
+                    <div class="weapons_category" id="ars_image" onclick="esconderSecciones('ars_image','weapons_info_ars')"> 
+                        <p class="category_names">Assault Rifles</p>
+                    </div>
+                    <article class="esconder" id="weapons_info_ars">
+                        <!--R-301-->        
+                        <h3>R301-Carbine <img src="./src/images/Light_Rounds.png" class="ammo_icons"></h3>
+                        <img src="./src/images/R-301_Icon.png" class="weapons_info_images">
+                        <table class="stats_table">
+                            <thead>
+                                <tr>
+                                    <td>Body Damage</td>
+                                    <td>Head Damage</td>
+                                    <td>Legs Damage</td>
+                                    <td>Body DPS</td>
+                                    <td>Fire Modes</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>14</td>
+                                    <td>28</td>
+                                    <td>11</td>
+                                    <td>189(Auto)<br>57(Single)</td>
+                                    <td><img src="./src/images/Auto_Icon.png" width="15px" height="10px"> Auto<br><img src="./src/images/Single-fire_Icon.png" width="15px" height="10px">Single</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!--G7 Scout-->
+                        <h3>G7 Scout<img src="./src/images/Light_Rounds.png" class="ammo_icons"></h3>
+                        <img src="./src/images/G7_Scout_Icon.png" class="weapons_info_images">
+                        <table class="stats_table">
+                            <thead>
+                                <tr>
+                                    <td>Body Damage</td>
+                                    <td>Head Damage</td>
+                                    <td>Legs Damage</td>
+                                    <td>Body DPS</td>
+                                    <td>Fire Modes</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>34</td>
+                                    <td>60</td>
+                                    <td>26</td>
+                                    <td>141.67</td>
+                                    <td><img src="./src/images/Single-fire_Icon.png" width="15px" height="10px"> Single<br><img src="./src/images/Burst_Icon.png" width="15px" height="10px"> Burst</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!--VK-47 Flatline-->
+                        <h3>VK-47 Flatline<img src="./src/images/Heavy_Rounds.png" class="ammo_icons"></h3>
+                        <img src="./src/images/Flatline_Icon.png" class="weapons_info_images">
+                        <table class="stats_table">
+                            <thead>
+                                <tr>
+                                    <td>Body Damage</td>
+                                    <td>Head Damage</td>
+                                    <td>Legs Damage</td>
+                                    <td>Body DPS</td>
+                                    <td>Fire Modes</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>19</td>
+                                    <td>38</td>
+                                    <td>14</td>
+                                    <td>190(Auto) <br>57(Single)</td>
+                                    <td><img src="./src/images/Auto_Icon.png" width="15px" height="10px"> Auto<br><img src="./src/images/Single-fire_Icon.png  " width="15px" height="10px"> Single</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!--Hemlok-->
+                        <h3>Hemlok<img src="./src/images/Heavy_Rounds.png" class="ammo_icons"></h3>
+                        <img src="./src/images/Hemlok_Icon.png" class="weapons_info_images">
+                        <table class="stats_table">
+                            <thead>
+                                <tr>
+                                    <td>Body Damage</td>
+                                    <td>Head Damage</td>
+                                    <td>Legs Damage</td>
+                                    <td>Body DPS</td>
+                                    <td>Fire Modes</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>66 (22x3)</td>
+                                    <td>132 (44x3)</td>
+                                    <td>51 (17x3)</td>
+                                    <td>490(Burst) <br>384(Single)</td>
+                                    <td><img src="./src/images/Burst_Icon.png" width="15px" height="10px"> Burst<br><img src="./src/images/Single-fire_Icon.png" width="15px" height="10px"> Single</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!--Havoc-->
+                        <h3>Havoc<img src="./src/images/Energy_Ammo.png" class="ammo_icons"></h3>
+                        <img src="./src/images/Havoc_Icon.png" class="weapons_info_images">
+                        <table class="stats_table">
+                            <thead>
+                                <tr>
+                                    <td>Body Damage</td>
+                                    <td>Head Damage</td>
+                                    <td>Legs Damage</td>
+                                    <td>Body DPS</td>
+                                    <td>Fire Modes</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>18</td>
+                                    <td>36</td>
+                                    <td>14</td>
+                                    <td>672</td>
+                                    <td><img src="./src/images/Auto_Icon.png" width="15px" height="10px"> Auto<br><img src="./src/images/Single-fire_Icon.png" width="15px" height="10px"> Single</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </article>
+                    <!--SMGs-->
+                    <div class="weapons_category" id="smgs_image" onclick="esconderSecciones('smgs_image', 'weapons_info_smgs')"> 
+                        <p class="category_names">Sub-Machine Guns</p>
+                    </div>
+                    <article class="esconder" id="weapons_info_smgs">
+                        <!--R-99-->
+                        <h3>R-99<img src="./src/images/Light_Rounds.png" class="ammo_icons"></h3>
+                        <img src="./src/images/R-99_Icon.png" class="weapons_info_images">
+                        <table class="stats_table">
+                            <thead>
+                                <tr>
+                                    <td>Body Damage</td>
+                                    <td>Head Damage</td>
+                                    <td>Legs Damage</td>
+                                    <td>Body DPS</td>
+                                    <td>Fire Modes</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>12</td>
+                                    <td>17</td>
+                                    <td>9</td>
+                                    <td>198</td>
+                                    <td><img src="./src/images/Auto_Icon.png" width="15px" height="10px"> Auto</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!--Alternator-->
+                        <h3>Alternator<img src="./src/images/Light_Rounds.png" class="ammo_icons"></h3>
+                        <img src="./src/images/Alternator_Icon.png" class="weapons_info_images">
+                        <table class="stats_table">
+                            <thead>
+                                <tr>
+                                    <td>Body Damage</td>
+                                    <td>Head Damage</td>
+                                    <td>Legs Damage</td>
+                                    <td>Body DPS</td>
+                                    <td>Fire Modes</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>15</td>
+                                    <td>23</td>
+                                    <td>12</td>
+                                    <td>150</td>
+                                    <td><img src="./src/images/Auto_Icon.png" width="15px" height="10px"> Auto</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!--Prowler-->
+                        <h3>Prowler<img src="./src/images/Heavy_Rounds.png" class="ammo_icons"></h3>
+                        <img src="./src/images/Prowler_Icon.png" class="weapons_info_images">
+                        <table class="stats_table">
+                            <thead>
+                                <tr>
+                                    <td>Body Damage</td>
+                                    <td>Head Damage</td>
+                                    <td>Legs Damage</td>
+                                    <td>Body DPS</td>
+                                    <td>Fire Modes</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>15x5 (75)</td>
+                                    <td>23x5 (115)</td>
+                                    <td>12x5 (60)</td>
+                                    <td>200(Auto)</td>
+                                    <td><img src="./src/images/Burst_Icon.png" width="15px" height="10px"> Burst<br><img src="./src/images/Auto_Icon.png" width="15px" height="10px"> Auto_Icon</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!--Volt SMG-->
+                        <h3>Volt SMG<img src="./src/images/Energy_Ammo.png" class="ammo_icons"></h3>
+                        <img src="./src/images/Volt_Icon.png" class="weapons_info_images">
+                        <table class="stats_table">
+                            <thead>
+                                <tr>
+                                    <td>Body Damage</td>
+                                    <td>Head Damage</td>
+                                    <td>Legs Damage</td>
+                                    <td>Body DPS</td>
+                                    <td>Fire Modes</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>16</td>
+                                    <td>24</td>
+                                    <td>13</td>
+                                    <td>195</td>
+                                    <td><img src="./src/images/Auto_Icon.png" width="15px" height="10px"> Auto</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </article>
+                    <!--LMGs-->
+                    <div class="weapons_category" id="lmgs_image" onclick="esconderSecciones('lmgs_image','weapons_info_lmgs')"> 
+                        <p class="category_names">Light-Machine Guns</p>
+                    </div>
+                    <article class="esconder" id="weapons_info_lmgs">
+                        <!--Spitfire-->
+                        <h3>Spitfire<img src="./src/images/Heavy_Rounds.png" class="ammo_icons"></h3>
+                        <img src="./src/images/Spitfire_Icon.png" class="weapons_info_images">
+                        <table class="stats_table">
+                            <thead>
+                                <tr>
+                                    <td>Body Damage</td>
+                                    <td>Head Damage</td>
+                                    <td>Legs Damage</td>
+                                    <td>Body DPS</td>
+                                    <td>Fire Modes</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>18</td>
+                                    <td>36</td>
+                                    <td>14</td>
+                                    <td>162</td>
+                                    <td><img src="./src/images/Auto_Icon.png" width="15px" height="10px"> Auto</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!--L-STAR-->
+                        <h3>L-STAR<img src="./src/images/Energy_Ammo.png" class="ammo_icons"></h3>
+                        <img src="./src/images/L-Star_Icon.png" class="weapons_info_images">
+                        <table class="stats_table">
+                            <thead>
+                                <tr>
+                                    <td>Body Damage</td>
+                                    <td>Head Damage</td>
+                                    <td>Legs Damage</td>
+                                    <td>Body DPS</td>
+                                    <td>Fire Modes</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>18</td>
+                                    <td>36</td>
+                                    <td>14</td>
+                                    <td>180</td>
+                                    <td><img src="./src/images/Auto_Icon.png" width="15px" height="10px"> Auto</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!--Devotion-->
+                        <h3>Devotion<img src="./src/images/Energy_Ammo.png" class="ammo_icons"></h3>
+                        <img src="./src/images/Devotion_Icon.png" class="weapons_info_images">
+                        <table class="stats_table">
+                            <thead>
+                                <tr>
+                                    <td>Body Damage</td>
+                                    <td>Head Damage</td>
+                                    <td>Legs Damage</td>
+                                    <td>Body DPS</td>
+                                    <td>Fire Modes</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>16</td>
+                                    <td>32</td>
+                                    <td>13</td>
+                                    <td>255</td>
+                                    <td><img src="./src/images/Auto_Icon.png" width="15px" height="10px"> Auto</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </article>
+                </div>
+                <div class="weapons_row" id="row2">
+                    <!--Snipers-->
+                    <div class="weapons_category" id="snipers_image" onclick="esconderSecciones('snipers_image','weapons_info_snipers')"> 
+                        <p class="category_names">Snipers</p>
+                    </div>
+                    <article class="esconder" id="weapons_info_snipers">
+                        <!--Kraber-->
+                        <h3>Kraber<img src="./src/images/Supply_Drop_Sniper_Ammo.png" class="ammo_icons"></h3>
+                        <img src="./src/images/Kraber_Icon.png" class="weapons_info_images">
+                        <table class="stats_table">
+                            <thead>
+                                <tr>
+                                    <td>Body Damage</td>
+                                    <td>Head Damage</td>
+                                    <td>Legs Damage</td>
+                                    <td>Body DPS</td>
+                                    <td>Fire Modes</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>145</td>
+                                    <td>435</td>
+                                    <td>116</td>
+                                    <td>87</td>
+                                    <td><img src="./src/images/Single-fire_Icon.png" width="15px" height="10px"> Single</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!--Sentinel <3-->
+                        <h3>Sentinel<img src="./src/images/Sniper_Ammo.png" class="ammo_icons"></h3>
+                        <img src="./src/images/Sentinel_Icon.png" class="weapons_info_images">
+                        <table class="stats_table">
+                            <thead>
+                                <tr>
+                                    <td>Body Damage</td>
+                                    <td>Head Damage</td>
+                                    <td>Legs Damage</td>
+                                    <td>Body DPS</td>
+                                    <td>Fire Modes</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>70</td>
+                                    <td>140</td>
+                                    <td>63</td>
+                                    <td>40</td>
+                                    <td><img src="./src/images/Single-fire_Icon.png" width="15px" height="10px"> Single</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!--Longbow-->
+                        <h3>Longbow<img src="./src/images/Sniper_Ammo.png" class="ammo_icons"></h3>
+                        <img src="./src/images/Longbow_Icon.png" class="weapons_info_images">
+                        <table class="stats_table">
+                            <thead>
+                                <tr>
+                                    <td>Body Damage</td>
+                                    <td>Head Damage</td>
+                                    <td>Legs Damage</td>
+                                    <td>Body DPS</td>
+                                    <td>Fire Modes</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>55</td>
+                                    <td>118</td>
+                                    <td>44</td>
+                                    <td>64.17</td>
+                                    <td><img src="./src/images/Single-fire_Icon.png" width="15px" height="10px"> Single</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!--Triple Take-->
+                        <h3>Triple Take<img src="./src/images/Sniper_Ammo.png" class="ammo_icons"></h3>
+                        <img src="./src/images/Triple_Take_Icon.png" class="weapons_info_images">
+                        <table class="stats_table">
+                            <thead>
+                                <tr>
+                                    <td>Body Damage</td>
+                                    <td>Head Damage</td>
+                                    <td>Legs Damage</td>
+                                    <td>Body DPS</td>
+                                    <td>Fire Modes</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>69 (23x3)</td>
+                                    <td>118 (46x3)</td>
+                                    <td>63 (21x3)</td>
+                                    <td>101.2(x3) <br>67.47 (x2) <br>33.73 (x1)</td>
+                                    <td><img src="./src/images/Single-fire_Icon.png" width="15px" height="10px"> Single</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!--Charge Rifle-->
+                        <h3>Charge Rifle<img src="./src/images/Sniper_Ammo.png" class="ammo_icons"></h3>
+                        <img src="./src/images/Charge_Rifle_Icon.png" class="weapons_info_images">
+                        <table class="stats_table">
+                            <thead>
+                                <tr>
+                                    <td>Body Damage</td>
+                                    <td>Head Damage</td>
+                                    <td>Legs Damage</td>
+                                    <td>Body DPS</td>
+                                    <td>Fire Modes</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>90 (3x15+45)</td>
+                                    <td>116 (4x15+45)</td>
+                                    <td>90 (3x15+45)</td>
+                                    <td>45</td>
+                                    <td><img src="./src/images/Single-fire_Icon.png" width="15px" height="10px"> Single</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </article>
+                    <!--Shotguns-->
+                    <div class="weapons_category" id="shotguns_image" onclick="esconderSecciones('shotguns_image', 'weapons_info_shotguns')"> 
+                        <p class="category_names">Shotguns</p>
+                    </div>
+                    <article class="esconder" id="weapons_info_shotguns">
+                        <!--Peacekeeper-->
+                        <h3>Peacekeeper<img src="./src/images/Supply_Drop_Shotgun_Shells.png" class="ammo_icons"></h3>
+                        <img src="./src/images/Peacekeeper_Icon.png" class="weapons_info_images">
+                        <table class="stats_table">
+                            <thead>
+                                <tr>
+                                    <td>Body Damage</td>
+                                    <td>Head Damage</td>
+                                    <td>Legs Damage</td>
+                                    <td>Body DPS</td>
+                                    <td>Fire Modes</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>110 (10x11)</td>
+                                    <td>165 (15x11)</td>
+                                    <td>42 (14x3)</td>
+                                    <td>88</td>
+                                    <td><img src="./src/images/Single-fire_Icon.png" width="15px" height="10px"> Single</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!--Mastiff-->
+                        <h3>Mastiff<img src="./src/images/Shotgun_Shells.png" class="ammo_icons"></h3>
+                        <img src="./src/images/Mastiff_Icon.png" class="weapons_info_images">
+                        <table class="stats_table">
+                            <thead>
+                                <tr>
+                                    <td>Body Damage</td>
+                                    <td>Head Damage</td>
+                                    <td>Legs Damage</td>
+                                    <td>Body DPS</td>
+                                    <td>Fire Modes</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>104 (13x8)</td>
+                                    <td>128 (16x8)</td>
+                                    <td>104 (13x8)</td>
+                                    <td>96</td>
+                                    <td><img src="./src/images/Single-fire_Icon.png" width="15px" height="10px"> Single</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!--EVA-8-->
+                        <h3>EVA-8<img src="./src/images/Shotgun_Shells.png" class="ammo_icons"></h3>
+                        <img src="./src/images/Eva-8_Icon.png" class="weapons_info_images">
+                        <table class="stats_table">
+                            <thead>
+                                <tr>
+                                    <td>Body Damage</td>
+                                    <td>Head Damage</td>
+                                    <td>Legs Damage</td>
+                                    <td>Body DPS</td>
+                                    <td>Fire Modes</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>63 (7x9)</td>
+                                    <td>90 (10x9)</td>
+                                    <td>54 (6x9)</td>
+                                    <td>113 ± 1</td>
+                                    <td><img src="./src/images/Single-fire_Icon.png" width="15px" height="10px"> Single<br> <img src="./src/images/Burst_Icon.png" width="15px" height="10px">Burst</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!--Mozambique-->
+                        <h3>Mozambique<img src="./src/images/Shotgun_Shells.png" class="ammo_icons"></h3>
+                        <img src="./src/images/Mozambique_Icon.png" class="weapons_info_images">
+                        <table class="stats_table">
+                            <thead>
+                                <tr>
+                                    <td>Body Damage</td>
+                                    <td>Head Damage</td>
+                                    <td>Legs Damage</td>
+                                    <td>Body DPS</td>
+                                    <td>Fire Modes</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>45 (15x3)</td>
+                                    <td>66 (22x3)</td>
+                                    <td>42 (42x3)</td>
+                                    <td>95.25 <br>±13 <br>31.75</td>
+                                    <td><img src="./src/images/Single-fire_Icon.png" width="15px" height="10px"> Single</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </article>
+                    <!--Pistols-->
+                    <div class="weapons_category" id="pistols_image" onclick="esconderSecciones('pistols_image', 'weapons_info_pistols')"> 
+                        <p class="category_names">Pistols</p>
+                    </div>
+                    <article class="esconder" id="weapons_info_pistols">
+                        <!--P2020-->
+                        <h3>P2020<img src="./src/images/Light_Rounds.png" class="ammo_icons"></h3>
+                        <img src="./src/images/P2020_Icon.png" class="weapons_info_images">
+                        <table class="stats_table">
+                            <thead>
+                                <tr>
+                                    <td>Body Damage</td>
+                                    <td>Head Damage</td>
+                                    <td>Legs Damage</td>
+                                    <td>Body DPS</td>
+                                    <td>Fire Modes</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>15</td>
+                                    <td>20</td>
+                                    <td>12</td>
+                                    <td>110.5</td>
+                                    <td><img src="./src/images/Single-fire_Icon.png" width="15px" height="10px"> Single</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!--Wingman-->
+                        <h3>Wingman<img src="./src/images/Heavy_Rounds.png" class="ammo_icons"></h3>
+                        <img src="./src/images/Wingman_Icon.png" class="weapons_info_images">
+                        <table class="stats_table">
+                            <thead>
+                                <tr>
+                                    <td>Body Damage</td>
+                                    <td>Head Damage</td>
+                                    <td>Legs Damage</td>
+                                    <td>Body DPS</td>
+                                    <td>Fire Modes</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>45</td>
+                                    <td>90</td>
+                                    <td>41</td>
+                                    <td>112.5</td>
+                                    <td><img src="./src/images/Single-fire_Icon.png" width="15px" height="10px"> Single</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!--RE-45-->
+                        <h3>RE-45<img src="./src/images/Light_Rounds.png" class="ammo_icons"></h3>
+                        <img src="./src/images/Re-45_Icon.png" class="weapons_info_images">
+                        <table class="stats_table">
+                            <thead>
+                                <tr>
+                                    <td>Body Damage</td>
+                                    <td>Head Damage</td>
+                                    <td>Legs Damage</td>
+                                    <td>Body DPS</td>
+                                    <td>Fire Modes</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>12</td>
+                                    <td>16</td>
+                                    <td>10</td>
+                                    <td>156</td>
+                                    <td><img src="./src/images/Auto_Icon.png" width="15px" height="10px"> Auto</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </article>
+                </div>
+            </div>
+        </section> 
+        
+        <script src="./js/weapons.js" type="text/javascript"></script>
+
+        <footer class="footer">
+            <p> George Allen | geot_allenp@unicah.edu | UNICAH-ICC</p>
+        </footer>
+    </body>
+</html>

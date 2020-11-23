@@ -1,0 +1,177 @@
+div#news_banner
+{
+    height: 100%;
+    width: 100%;
+    background-image: url("../src/images/news_background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 65vh;
+    justify-content: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+#news_banner_info
+{
+    text-align: center;
+    font-size: 40px;
+}
+div#news_banner_info img
+{
+    height: 20vh;
+    width: 20vh;
+}
+
+/*Patch Notes*/
+.news_menu
+{
+    width: 100%;
+    background-color: rgb(24, 23, 23);
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+.news_menu ul
+{
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.selected.news_options
+{
+    opacity: 1;
+    background-color: black;
+    border-bottom: 3px solid #990000;
+}
+.news_options
+{
+    cursor: pointer;
+    height: 50px;
+    font-size: 25px;
+    margin-right:15px;
+    padding: 0 5px;
+    opacity: .6;
+    transition-property: background-color, opacity;
+    transition-duration: .5s;
+}
+
+.news_options:hover
+{
+    opacity: 1;
+    background-color: black;
+    border-bottom: 3px solid #990000;
+}
+
+/*Patch Notes*/
+.news_info h3
+{
+    font-size: 30px;
+}
+.news_info h4
+{
+    font-size: 25px;
+    font-weight: 200;
+    margin: 5px 0;
+}
+.news_info p 
+{
+    font-size: 20px;
+    margin-top: 0;
+}
+
+#patch_notes img
+{
+    height: 60vh;
+    width: 60vh;
+    margin-bottom: 10px;
+}
+
+.game_meta_list li
+{   
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+/*Game Updates*/
+#game_updates h1 + h3
+{
+    margin-bottom: 5px;
+}
+
+#game_updates cite + p
+{
+    margin-top: 30px;
+}
+.italic-text
+{
+    font-style: italic;
+    font-size: 10px;
+    color: rgb(63, 63, 63);
+}
+
+.fa-info-circle
+{
+    margin-left: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.grid-2
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 30px;
+    gap: 10px;
+}
+.grid-3
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 30px;
+    gap: 5px;
+}
+.travOlympus_images
+{
+    height: 50vh;
+    width: 80vh;
+    box-shadow: 3px 3px 9px black;
+}
+.pio_info_grids
+{
+    margin-bottom: 25px;
+}
+.pio_images
+{
+    width: 100%;
+    height: 100%;
+    box-shadow: 2px 4px 9px black;
+    filter: saturate(2);
+}
+
+#dev_quote
+{
+    margin-top: 70px;
+    text-align: center;
+}
+
+
+/*Tooltip*/
+.tippy-box[data-theme~='apex_legends']
+{
+    background-color: black;
+    color: whitesmoke;
+    opacity: 0.8;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    height: max-content;
+}
+
+.tippy-box p
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px !important;
+}
+
+

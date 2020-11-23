@@ -1,0 +1,281 @@
+/*Informacion Principal*/
+
+.item_attachments h2
+{
+    text-align: left!important;
+}
+
+div.items
+{
+    display: flex;
+    flex-direction: column;
+}
+/*Tablas*/
+.item_heals 
+{
+    width: 100%;
+}
+.item_heals .gear_table
+{
+    position: relative;
+    float: left;
+    margin-bottom: 50px;
+}
+
+img.gear_images
+{
+    height: 50px;
+    width: 50px;
+}
+table.gear_table
+{
+    border-collapse: collapse;
+    margin: 0px 30px 50px 30px;
+    width: 70%;
+}
+
+table.gear_table td
+{
+    border: 2px solid black;
+    padding: 8px 8px 8px 8px;
+    justify-content: center;
+    width: 1px;
+}
+table.gear_table td:first-child
+{
+    text-align: center;
+}
+table.gear_table thead tr td
+{
+    font-size: large;
+    font-weight: bold;
+}
+
+.perk_rarity
+{
+    font-size: 18px; 
+}
+.common
+{
+    color:#444444;
+}
+.rare
+{
+    color: #1f4e8b;
+}
+.epic
+{
+    color: #52057b;
+}
+.legendary
+{
+    color: #f0a500;
+}
+
+
+
+p.gear_names
+{
+    font-size: 15px!important;
+    text-align: center;
+    margin: 0;
+}
+
+/*Iconos*/
+img.info_icons
+{
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+    margin: 10px 0 0 30px;
+}
+
+/*Menus*/
+menu.lvl_menus
+{
+    background-color: black;
+    width: max-content;
+    text-align: left;
+    padding-left: 0px;
+    margin: 30px 0px 0px 30px;
+    box-shadow: 3px 3px 5px gray;
+    height: fit-content;
+    border-top-left-radius: 5px;
+    border-top-right-radius:5px ;
+}
+menu.lvl_menus a
+{
+    font-family: 'Teko', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-right: 1.5px solid #990000;
+    transition-property: color , background-color;
+    transition-duration: .5s;
+}
+menu.lvl_menus a:hover
+{
+    color: #ad1515;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+menu.lvl_menus a:last-child
+{
+    border-right: none;
+}
+
+.default
+{
+    color:whitesmoke;
+}
+.selected_option
+{
+    color: #990000;
+    background-color: whitesmoke;
+}
+
+
+/*Animacoines*/
+/*Lvl1 (comun)*/
+.pulse_common
+{   
+    animation-name: pulse_common;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes pulse_common
+{
+    0%
+    {
+        transform: scale(1);
+        background-color: #dcdcdc;
+        border-radius: 50%;
+    }
+    25%
+    {
+        background-color: #a9a9a9;
+    }
+    50%
+    {
+        background-color: #808080;
+        transform: scale(1.2);
+    }
+}
+
+/*Lvl2 (raro)*/
+.pulse_rare
+{   
+    animation-name: pulse_rare;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes pulse_rare
+{
+    0%
+    {
+        transform: scale(1);
+        background-color: #bbe1fa;
+        border-radius: 50%;
+    }
+    25%
+    {
+        background-color: #3282b8;
+    }
+    50%
+    {
+        background-color: #1b5f8b;
+        transform: scale(1.2);
+    }
+}
+
+/*Pulse Epic*/
+.pulse_epic
+{   
+    animation-name: pulse_epic;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes pulse_epic
+{
+    0%
+    {
+        transform: scale(1);
+        background-color: #bc6ff1;
+        border-radius: 50%;
+    }
+    25%
+    {
+        background-color: #892cdc;
+    }
+    50%
+    {
+        background-color: #71259b;
+        transform: scale(1.2);
+    }
+}
+
+.pulse_legendary
+{   
+    animation-name: pulse_legendary;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes pulse_legendary
+{
+    0%
+    {
+        transform: scale(1);
+        background-color: #f4d143;
+        border-radius: 50%;
+    }
+    25%
+    {
+        background-color: #e0b114;
+    }
+    50%
+    {
+        background-color: #fda831;
+        transform: scale(1.2);
+    }
+}
+
+.pulse_max
+{   
+    animation-name: pulse_max;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes pulse_max
+{
+    0%
+    {
+        transform: scale(1);
+        background-color: #ba262b;
+        border-radius: 50%;
+    }
+    25%
+    {
+        background-color: #a42726;
+    }
+    50%
+    {
+        background-color: #900a22;
+        transform: scale(1.2);
+    }
+}

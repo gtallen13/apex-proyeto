@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Main Page">
+        <meta name="author" content="George Allen">
+        <meta name= "keywords" content="blog, apex legends, videogame, ps4,xbox,nintengo,PC">
+        <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+        <link rel = "stylesheet" href = "./links/main.css" type="text/css">
+        <title>Apex Legends</title>
+    </head>
+    <body>
+        
+        <!--Menu Section-->
+        <nav class = "menu">
+            <ul>
+                <a href="./index.html" class="on-page"><img id="logo_menu" src="./src/images/apex-white-nav-logo.svg"></a>
+                <li><a href="./legends.html"> Legends </a></li>
+                <li><a href="./weapons.html"> Weapons </a></li>
+                <li><a href="./gear.html"> Gear </a></li>
+                <li><a href="./news.html"> News </a></li>
+                <li><a href="./aboutme.html"> About Me</a></li>
+                <li><a id="download" href="https://www.ea.com/games/apex-legends" target="_blank"> Official Website</a></li>
+            </ul>
+        </nav>         
+        
+        <div class="video_section">
+            <h1>Are you ready Legend?</h1>
+            <div class="video_container">
+                <div class="color_overlay"></div>
+                <video autoplay loop muted>
+                    <source src="./src/videos/video_intro1.mp4">
+                </video>
+            </div>
+        </div>
+
+        <section class="secciones">
+            <!--History section-->
+            <div id="history">
+                <h1>Welcome to the Apex Game</h1>
+                <div class="grid-2">
+                    <div class="intro_text">
+                        <p>
+                            The Frontier War is over. After decades of conflict between the IMC and the militia 
+                            founded to fight them, the region of space known as the Frontier can finally see peace.
+                        </p>
+                        <p>
+                            A remote cluster of planets on the fringes of the Frontier, the Outlands are untouched 
+                            by war and teeming with resources and opportunity. But life is cheap here, and danger 
+                            lurks around every corner. Its pioneers, explorers, and outlaws used to spend their lives 
+                            locked in an endless power struggle now, they settle their differences in the Apex Games,
+                            a bloodsport where Legends from all corners of the Frontier compete for money, fame, and glory.
+                        </p>
+                    </div>
+                    <div id="map_slideshow">
+                        <div class="map_slides fade">
+                            <img src="./src/images/kings_canyon.jpg">
+                        </div>
+                        <div class="map_slides fade">
+                            <img src="./src/images/worlds_edge.jpg">
+                        </div>
+                        <div class="map_slides fade">
+                            <img src="./src/images/olympus.jpg">
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <!--News Section-->
+            <div class="news">
+                <div class="grid-3_news">
+                    <div class="news_info">
+                        <img src="./src/images/patch_notes.jpg">
+                        <p>
+                            Discover an updated map, new legend, and more in Season 7.
+                        </p>
+                        <a href="./news.html#patch_notes"><h5>S07 Patch Notes</h5></a>
+                    </div>
+                    <div class="news_info">
+                        <img src="./src/images/apex-legends-global-series.jpg">
+                        <p>
+                            Autum Circuit Regional Tournament #3.
+                            October 31-November 2, 2020.
+                            Online Tournament.
+                        
+                        
+                        </p>
+                        <a href="https://www.ea.com/games/apex-legends/news/global-series-stay-and-play" target="_blank"><h5>Tournaments</h5></a>
+                    </div>
+                    <div class="news_info">
+                        <img src="./src/images/game_updates.jpg">
+                        <p>
+                            Check out what's all the talk about Olympus
+                        </p>
+                        <a href="./news.html#game_updates" onclick="showHiddenSections()"><h5>Game Updates</h5></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- video here -->
+            <div id="video_week">
+                <h2>Play of the week</h2>
+                <video id="video_play" controls poster="./src/images/lulu.png">
+                <source src="./src/videos/luluplay.mp4" type="video/mp4"> 
+            </video>
+            </div>
+            
+        </section>
+        
+
+        <footer class="footer">
+            <p> George Allen | geot_allenp@unicah.edu | UNICAH-ICC</p>
+        </footer>
+        <script src="./js/home.js" type="text/javascript"></script>
+    </body>
+</html>

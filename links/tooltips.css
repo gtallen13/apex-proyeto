@@ -1,0 +1,281 @@
+div.tooltips_columns 
+{
+    float: left;
+    width: 33.33%;
+    height: 200px;
+}
+div.tooltips_info::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*Tooltip Theme*/
+.tippy-box[data-theme~='apex_legends']
+{
+    background-color: black;
+    color: whitesmoke;
+    opacity: 0.8;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    height: max-content;
+}
+
+/*Tooltip Info*/
+.tippy-content
+{
+    height: 250px;
+    width: 310px;
+}
+div.tooltips_columns p
+{
+    color:  whitesmoke;
+    margin-right: 5px !important;
+    margin-top: 5px !important;
+    font-style: normal;
+    font-size: smaller;
+}
+div.tooltips_columns h4
+{
+    color: #990000;
+    font-size: medium;
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+}
+
+/*Tooltips Info Images*/
+div.legends_abilities.ability_images
+{
+    width: 50px;
+    height:50px;
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 15px;
+}
+/*Bangalore*/
+div.legends_abilities.ability_images#bangalore_ability1
+{
+    background-image: url("../src/images/bangalore_ability2.png");
+}
+div.legends_abilities.ability_images#bangalore_ability2
+{
+    background-image: url("../src/images/bangalore_ability1.png");
+}
+div.legends_abilities.ability_images#bangalore_ability3
+{
+    background-image: url("../src/images/bangalore_ability3.png");
+}
+
+/*Bloodhound*/
+div.legends_abilities.ability_images#bloodhound_ability1
+{
+    background-image: url("../src/images/bloodhound_ability1.png");
+}
+div.legends_abilities.ability_images#bloodhound_ability2
+{
+    background-image: url("../src/images/bloodhound_ability2.png");
+}
+div.legends_abilities.ability_images#bloodhound_ability3
+{
+    background-image: url("../src/images/bloodhound_ability3.png");
+}
+
+/*Caustic*/
+div.legends_abilities.ability_images#caustic_ability1
+{
+    background-image: url("../src/images/caustic_ability1.png");
+}
+div.legends_abilities.ability_images#caustic_ability2
+{
+    background-image: url("../src/images/caustic_ability2.png");
+}
+div.legends_abilities.ability_images#caustic_ability3
+{
+    background-image: url("../src/images/caustic_ability3.png");
+}
+
+/*Crypto*/
+div.legends_abilities.ability_images#crypto_ability1
+{
+    background-image: url("../src/images/crypto_ability1.png");
+}
+div.legends_abilities.ability_images#crypto_ability2
+{
+    background-image: url("../src/images/crypto_ability2.png");
+}
+div.legends_abilities.ability_images#crypto_ability3
+{
+    background-image: url("../src/images/crypto_ability3.png");
+}
+
+/*Gibraltar*/
+div.legends_abilities.ability_images#gibraltar_ability1
+{
+    background-image: url("../src/images/gibraltar_ability1.png");
+}
+div.legends_abilities.ability_images#gibraltar_ability2
+{
+    background-image: url("../src/images/gibraltar_ability2.png");
+}
+div.legends_abilities.ability_images#gibraltar_ability3
+{
+    background-image: url("../src/images/gibraltar_ability3.png");
+}
+
+/*Horizon*/
+div.legends_abilities.ability_images#horizon_ability1
+{
+    background-image: url("../src/images/horizon_ability1.png");
+}
+div.legends_abilities.ability_images#horizon_ability2
+{
+    background-image: url("../src/images/horizon_ability2.png");
+}
+div.legends_abilities.ability_images#horizon_ability3
+{
+    background-image: url("../src/images/horizon_ability3.png");
+}
+
+/*Lifeline*/
+div.legends_abilities.ability_images#lifeline_ability1
+{
+    background-image: url("../src/images/lifeline_ability1.png");
+}
+div.legends_abilities.ability_images#lifeline_ability2
+{
+    background-image: url("../src/images/lifeline_ability2.png");
+}
+div.legends_abilities.ability_images#lifeline_ability3
+{
+    background-image: url("../src/images/lifeline_ability3.png");
+}
+
+/*Loba*/
+div.legends_abilities.ability_images#loba_ability1
+{
+    background-image: url("../src/images/loba_ability1.png");
+}
+div.legends_abilities.ability_images#loba_ability2
+{
+    background-image: url("../src/images/loba_ability2.png");
+}
+div.legends_abilities.ability_images#loba_ability3
+{
+    background-image: url("../src/images/loba_ability3.png");
+}
+
+/*Mirage*/
+div.legends_abilities.ability_images#mirage_ability1
+{
+    background-image: url("../src/images/mirage_ability1.png");
+}
+div.legends_abilities.ability_images#mirage_ability2
+{
+    background-image: url("../src/images/mirage_ability2.png");
+}
+div.legends_abilities.ability_images#mirage_ability3
+{
+    background-image: url("../src/images/mirage_ability3.png");
+}
+
+/*Octane*/
+div.legends_abilities.ability_images#octane_ability1
+{
+    background-image: url("../src/images/octane_ability1.png");
+}
+div.legends_abilities.ability_images#octane_ability2
+{
+    background-image: url("../src/images/octane_ability2.png");
+}
+div.legends_abilities.ability_images#octane_ability3
+{
+    background-image: url("../src/images/octane_ability3.png");
+}
+
+/*Pathfinder*/
+div.legends_abilities.ability_images#pathfinder_ability1
+{
+    background-image: url("../src/images/pathfinder_ability1.png");
+}
+div.legends_abilities.ability_images#pathfinder_ability2
+{
+    background-image: url("../src/images/pathfinder_ability2.png");
+}
+div.legends_abilities.ability_images#pathfinder_ability3
+{
+    background-image: url("../src/images/pathfinder_ability3.png");
+}
+
+/*Rampart*/
+div.legends_abilities.ability_images#rampart_ability1
+{
+    background-image: url("../src/images/rampart_ability1.png");
+}
+div.legends_abilities.ability_images#rampart_ability2
+{
+    background-image: url("../src/images/rampart_ability2.png");
+}
+div.legends_abilities.ability_images#rampart_ability3
+{
+    background-image: url("../src/images/rampart_ability3.png");
+}
+
+/*Revenant*/
+div.legends_abilities.ability_images#revenant_ability1
+{
+    background-image: url("../src/images/revenant_ability1.png");
+}
+div.legends_abilities.ability_images#revenant_ability2
+{
+    background-image: url("../src/images/revenant_ability2.png");
+}
+div.legends_abilities.ability_images#revenant_ability3
+{
+    background-image: url("../src/images/revenant_ability3.png");
+}
+
+/*Revenant*/
+div.legends_abilities.ability_images#revenant_ability1
+{
+    background-image: url("../src/images/revenant_ability1.png");
+}
+div.legends_abilities.ability_images#revenant_ability2
+{
+    background-image: url("../src/images/revenant_ability2.png");
+}
+div.legends_abilities.ability_images#revenant_ability3
+{
+    background-image: url("../src/images/revenant_ability3.png");
+}
+
+/*Wattson*/
+div.legends_abilities.ability_images#wattson_ability1
+{
+    background-image: url("../src/images/wattson_ability1.png");
+}
+div.legends_abilities.ability_images#wattson_ability2
+{
+    background-image: url("../src/images/wattson_ability2.png");
+}
+div.legends_abilities.ability_images#wattson_ability3
+{
+    background-image: url("../src/images/wattson_ability3.png");
+}
+
+/*Wraith*/
+div.legends_abilities.ability_images#wraith_ability1
+{
+    background-image: url("../src/images/wraith_ability1.jpg");
+}
+div.legends_abilities.ability_images#wraith_ability2
+{
+    background-image: url("../src/images/wraith_ability2.jpg");
+}
+div.legends_abilities.ability_images#wraith_ability3
+{
+    background-image: url("../src/images/wraith_ability3.jpg");
+}
+
