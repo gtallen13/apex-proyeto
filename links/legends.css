@@ -17,6 +17,13 @@ div.legends_text p
     font-style: normal;
     font-size: 20px;
 }
+.legends_text_header
+{
+    margin: 0;
+    position: relative;
+    display: flex;
+}
+
 
 /*Imagenes de Leyendas*/
 div.legends_pics
@@ -97,59 +104,48 @@ div.legends_pics#wraith_pic
 } 
 
 /*Legends Icon*/
-div.tracker_legends_icon
+.tracker_legends_icon
 {
+
     height: 20px;
     width: 20px;
-    float: left;
-    background-image: url("../src/images/tracker_icon.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.747);
     box-shadow: 1px 1px 2px grey;
     cursor: pointer;
     margin-right: 5px;
 }
-div.attack_legends_icon
+.attack_legends_icon
 {
     height: 20px;
     width: 20px;
-    float: left;
-    background-image: url("../src/images/bullets_icon.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.747);
     box-shadow: 1px 1px 2px grey;
     cursor: pointer;
     margin-right: 5px;
 }
-div.support_legends_icon
+.support_legends_icon
 {
     height: 20px;
     width: 20px;
-    float: left;
-    background-image: url("../src/images/cross_icon.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.747);
     box-shadow: 1px 1px 2px grey;
     cursor: pointer;
     margin-right: 5px;
 }
-div.defense_legends_icon
+.defense_legends_icon
 {
     height: 20px;
     width: 20px;
-    float: left;
-    background-image: url("../src/images/shield_icon.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.747);
     box-shadow: 1px 1px 2px grey;
     cursor: pointer;
     margin-right: 5px;
 }
+
+
+/*Tooltip Icons*/
+i.fas
+{
+    cursor: pointer;
+}
+
