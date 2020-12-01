@@ -40,78 +40,93 @@ div.legends_pics
 }
 div.legends_pics#bangalore_pic
 {
+    position: relative;
     background-image: url("../src/images/bangalore.jpg");
 } 
 div.legends_pics#bloodhound_pic
 {
+    position: relative;
     background-image: url("../src/images/bloodhound.jpg");
 } 
 div.legends_pics#caustic_pic
 {
+    position: relative;
     background-image: url("../src/images/caustic.jpg");
 } 
 div.legends_pics#crypto_pic
 {
+    position: relative;
     background-image: url("../src/images/crypto.jpg");
 } 
 div.legends_pics#gibraltar_pic
 {
+    position: relative;
     background-image: url("../src/images/gibraltar.png");
 } 
 div.legends_pics#horizon_pic
 {
+    position: relative;
     background-image: url("../src/images/horizon.jpg");
 } 
 div.legends_pics#lifeline_pic
 {
+    position: relative;
     background-image: url("../src/images/lifeline.jpg");
 } 
 div.legends_pics#loba_pic
 {
+    position: relative;
     background-image: url("../src/images/loba.jpg");
 }   
 div.legends_pics#mirage_pic
 {
+    position: relative;
     background-image: url("../src/images/mirage.jpg");
     background-position: -95px 0px !important;
 } 
 
 div.legends_pics#octane_pic
 {
+    position: relative;
     background-image: url("../src/images/octane.jpg");
 } 
 
 div.legends_pics#pathfinder_pic
 {
+    position: relative;
     background-image: url("../src/images/pathfinder.jpg");
 } 
 div.legends_pics#rampart_pic
 {
+    position: relative;
     background-image: url("../src/images/rampart.jpg");
     background-position: -110px 0px!important;
 } 
 div.legends_pics#revenant_pic
 {
+    position: relative;
     background-image: url("../src/images/revenant.jpg");
 } 
 div.legends_pics#wattson_pic
 {
+    position: relative;
     background-image: url("../src/images/wattson.jpg");
 } 
 div.legends_pics#wraith_pic
 {
+    position: relative;
     background-image: url("../src/images/wraith.jpg");
 } 
 
 /*Legends Icon*/
 .tracker_legends_icon
 {
-
     height: 20px;
     width: 20px;
     background-color: rgba(0, 0, 0, 0.747);
-    box-shadow: 1px 1px 2px grey;
-    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    right: 2px;
     margin-right: 5px;
 }
 .attack_legends_icon
@@ -119,8 +134,9 @@ div.legends_pics#wraith_pic
     height: 20px;
     width: 20px;
     background-color: rgba(0, 0, 0, 0.747);
-    box-shadow: 1px 1px 2px grey;
-    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    right: 2px;
     margin-right: 5px;
 }
 .support_legends_icon
@@ -128,8 +144,9 @@ div.legends_pics#wraith_pic
     height: 20px;
     width: 20px;
     background-color: rgba(0, 0, 0, 0.747);
-    box-shadow: 1px 1px 2px grey;
-    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    right: 2px;
     margin-right: 5px;
 }
 .defense_legends_icon
@@ -137,8 +154,9 @@ div.legends_pics#wraith_pic
     height: 20px;
     width: 20px;
     background-color: rgba(0, 0, 0, 0.747);
-    box-shadow: 1px 1px 2px grey;
-    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    right: 2px;
     margin-right: 5px;
 }
 
