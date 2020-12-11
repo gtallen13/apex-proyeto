@@ -46,7 +46,6 @@ section.secciones h2
     position: relative;
     display: flex;
     flex-direction: column;
-    margin: 0;
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
@@ -152,9 +151,9 @@ article.weapons_info table
     }
 }
 /*Sidebar*/
-section.seccion_lateral
+.seccion_lateral
 {
-    
+    overflow: hidden;
     width: 100%;
     position: relative;
     background-color: transparent;
@@ -162,18 +161,29 @@ section.seccion_lateral
     padding-top: 20px;
     flex-direction: row;
 }
-section.seccion_lateral img.weapons_image_sidebar
+
+.weapons_image_sidebar
 {
-    height: 90px;
-    width: 55%;
-    margin: 0 20px 15px 20px;
+    
+    height: 120px;
+    width: 65%;
     cursor: pointer;
     transition: all 1s;
 }
-/*Animaciones Sidebar*/
-section.seccion_lateral img.weapons_image_sidebar:hover
+
+@media only screen and (max-width:768px)
 {
-    transform: scale(1.25,1.25);
+    .weapons_image_sidebar
+    {
+        height: 60px;
+        width: 80%;
+    }
+
+}
+/*Animaciones Sidebar*/
+.weapons_image_sidebar:hover
+{
+    transform: scale(1.15,1.15);
 }
 /*Imagenes*/
 img.weapons_info_images
