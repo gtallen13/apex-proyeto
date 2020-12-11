@@ -74,18 +74,21 @@ div.color_overlay
     position: relative;
     background-color: black;
     display:flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
     width: 100%;
-    height: 75px;
+    transition: all .5s;
 }
 .menu ul
 {
     list-style: none;
     display: flex;
-    flex-direction: row;
-    margin-top: 0;
-    margin-bottom:0 ;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px 0 10px;
+    transition: all .5s;
+
 }
 
 .menu ul li a
@@ -106,76 +109,73 @@ div.color_overlay
     transition: all .5s ease;
     overflow: hidden;
     opacity: .8;
+    line-height: 70px;
 }
 
 
-.menu ul li a#download
+/* .menu ul li a#download
 {
     position: absolute;
     right: 15px;
     width: 180px;
     text-align: center;
     border-radius: 5px;
-}
+} */
 
 
 img#logo_menu
 {
-
-    float: left;
     transition: all .5s;
-    border-radius: 10px;
     height: 50px;
     width: 50px;
     opacity:.8!important;
+    margin-left: 20px;
+}
+
+.hamburger
+{
+    display: none;
+    background-color: transparent;
+    border:0;
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
 }
 .on-page
 {
     -webkit-text-fill-color: white!important;
     opacity: 1!important;
 }
-.responsive_lista
-{
-   display:flex;
-   flex-direction: column;
-   height: max-content;
-}
-.responsive_menu
-{
-    height: 100vh;
-    opacity: .8;
-}
 @media (max-width:768px)
 {
-    .menu{display: none;}
+    img#logo_menu
+    {
+        height: 80px;
+        width: 80px;
+    }
+    .hamburger{display: block;}
+    a{display: flex;}
+    .menu ul
+    {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+    }
+    .menu ul li a{font-size: 50px;}
+    .menu.opaque{opacity: .85;}
+    .menu ul.show{display: flex;height: 100vh;}
     div.video_section h1
     {
         font-size: 4rem;
     }
-    .menu ul
-    {
-        display: none;
-    }
-    #menu_res
-    {
-        background-color: black;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        transition: height .5s;
-        padding:10px;
-    }
-    #menu_btn_wrapper
-    {
-        margin-left: 15px;
-        font-size: 40px;
-        display: flex;
-    }
     #menu_btn
     {
-        margin-left: 10px;
+        position: absolute;
+        top: 10px;
+        left: 110px;
         cursor: pointer;
         opacity: .8;
+        font-size: 50px;
         transition: opacity .5s;
     }
 
@@ -186,8 +186,9 @@ img#logo_menu
     .menu ul li a#download
     {
       position: relative;  
-    
     }
+
+
 }
 
 /*Menu Animaciones*/
@@ -200,6 +201,10 @@ nav.menu ul li a:hover
 img#logo_menu:hover
 {
     transform: scale(1.15,1.15);
+}
+.hamburger:focus
+{
+    outline: none;
 }
 
 
