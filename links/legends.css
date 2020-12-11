@@ -18,7 +18,7 @@
     font-style: normal;
     font-size: 20px;
 }
-i{margin-top: 10px;}
+.legends_text i{margin-top: 10px;}
 .legends_text_header
 {
     margin: 0;
@@ -32,7 +32,7 @@ i{margin-top: 10px;}
         height: 100vh;
     }
     .legends_text h3{font-size: 40px;margin-bottom: 5px;}
-    i{font-size: 30px;}
+    .legends_text i{font-size: 30px;}
 }
 /*Imagenes de Leyendas*/
 .legends_pics
