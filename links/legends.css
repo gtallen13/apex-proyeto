@@ -2,7 +2,7 @@
 .legends_text
 {
     width: 80%;
-    height: 200px;
+    height: 50vh;
     margin-bottom: 20px;   
 }
 
@@ -25,11 +25,11 @@
     position: relative;
     display: flex;
 }
-@media(max-width:768px)
+@media only screen and (max-width:768px)
 {
     .legends_text
     {
-        height: 100vh;
+        height: 110vh;
     }
     .legends_text h3{font-size: 40px;margin-bottom: 5px;}
     .legends_text i{font-size: 30px;}
@@ -37,8 +37,8 @@
 /*Imagenes de Leyendas*/
 .legends_pics
 {
-    height: 200px;
-    width: 20%;
+    height: 50vh;
+    width: 30%;
     float: left;
     margin-right: 30px;
     background-position: center;
@@ -47,13 +47,12 @@
     box-shadow: 5px 10px 5px grey;
     border-radius: 10px;
 }
-@media (max-width:728px)
+@media only screen and (max-width:728px)
 {
     .legends_pics
     {
-        margin: 0 0 30px 0;
+        margin: 20px 0 30px 0;
         width: 100%;
-        height: 50vh;
     }
     .legends h2
     {
@@ -105,7 +104,7 @@
 {
     position: relative;
     background-image: url("../src/images/mirage.jpg");
-    background-position: -95px 0px !important;
+    background-position: 50% 0 !important;
 } 
 
 .legends_pics#octane_pic
@@ -123,7 +122,7 @@
 {
     position: relative;
     background-image: url("../src/images/rampart.jpg");
-    background-position: -110px 0px!important;
+    background-position: 100% 0!important;
 } 
 .legends_pics#revenant_pic
 {
@@ -144,8 +143,8 @@
 /*Legends Icon*/
 .tracker_legends_icon
 {
-    height: 20px;
-    width: 20px;
+    height: 3.5vh;
+    width: 3.5vh;
     background-color: rgba(0, 0, 0, 0.747);
     position: absolute;
     top: 3px;
@@ -154,8 +153,8 @@
 }
 .attack_legends_icon
 {
-    height: 20px;
-    width: 20px;
+    height: 3.5vh;
+    width: 3.5vh;
     background-color: rgba(0, 0, 0, 0.747);
     position: absolute;
     top: 3px;
@@ -164,8 +163,8 @@
 }
 .support_legends_icon
 {
-    height: 20px;
-    width: 20px;
+    height: 3.5vh;
+    width: 3.5vh;
     background-color: rgba(0, 0, 0, 0.747);
     position: absolute;
     top: 3px;
@@ -174,8 +173,8 @@
 }
 .defense_legends_icon
 {
-    height: 20px;
-    width: 20px;
+    height: 3.5vh;
+    width: 3.5vh;
     background-color: rgba(0, 0, 0, 0.747);
     position: absolute;
     top: 3px;
