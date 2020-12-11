@@ -4,8 +4,10 @@
         <meta charset="utf-8">
         <meta name="description" content="Weapons Page">
         <meta name="author" content="George Allen">
+        <meta name="viewport" content="width=device-width, initial-scale= 1.0">
         <meta name= "keywords" content="blog, apex legends, videogame, ps4,xbox,nintengo,PC">
         <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
         <link rel = "stylesheet" href = "./links/main.css" type="text/css">
         <link rel = "stylesheet" href = "./links/weapons.css" type="text/css">
@@ -14,10 +16,13 @@
     <body>
         <!--Menu Section-->
         <nav class = "menu">
+            <a href="./index.html"><img id="logo_menu" src="./src/images/apex-white-nav-logo.svg"></a>
+            <button class="hamburger" id="menu_btn">
+                <i class="fas fa-bars"></i>
+            </button>
             <ul>
-                <a href="./index.html"><img id="logo_menu" src="./src/images/apex-white-nav-logo.svg"></a>
                 <li><a href="./legends.html"> Legends </a></li>
-                <li><a href="./weapons.html"class="on-page"> Weapons </a></li>
+                <li><a href="./weapons.html" class="on-page"> Weapons </a></li>
                 <li><a href="./gear.html"> Gear </a></li>
                 <li><a href="./news.html"> News </a></li>
                 <li><a href="./aboutme.html"> About Me</a></li>
@@ -34,7 +39,7 @@
                 <a href="#shotguns_image"><img src="./src/images/shotguns.svg" class="weapons_image_sidebar" id="shotguns_image_sidebar" onclick="esconderSecciones('shotguns_image', 'weapons_info_shotguns')"> </a>
                 <a href="#pistols_image"><img src="./src/images/pistols.svg" class="weapons_image_sidebar" id="pistols_image_sidebar" onclick="esconderSecciones('pistols_image', 'weapons_info_pistols')"> </a>
             </section>
-            <div class="weapons">
+            <div id="weapons">
                 <h2>Lock and Load</h2>
                 <div class="weapons_row" id="row1"> 
                     <!--ARs-->
@@ -630,11 +635,10 @@
                 </div>
             </div>
         </section> 
-        
-        <script src="./js/weapons.js" type="text/javascript"></script>
-
         <footer class="footer">
             <p> George Allen | geot_allenp@unicah.edu | UNICAH-ICC</p>
         </footer>
+        <script src="./js/weapons.js" type="text/javascript"></script>
+        <script src="./js/menu.js" type="text/javascript"></script>
     </body>
 </html>

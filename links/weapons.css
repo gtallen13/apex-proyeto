@@ -2,11 +2,32 @@
 {
     display: none;
 }
-
-div.weapons_row
+section.secciones
 {
-    /* display: table;
-    margin-left: 5%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:max-content;
+}
+section.secciones h2
+{
+    font-size: 50px;
+    margin:20px 0 20px 0;
+}
+.weapons_container
+{
+    height:100%;
+    text-align: left;
+}
+.weapons_info h3
+{
+    display: flex;
+    font-size: 35px;
+    justify-content: left; 
+    align-items: center;
+}
+.weapons_row
+{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: auto;
@@ -22,6 +43,7 @@ div.weapons_row
 
 .weapons_category
 {
+    position: relative;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -34,6 +56,24 @@ div.weapons_row
     box-shadow: 5px 3px 9px gray;
     transition: all .5s;
     cursor: pointer;
+}
+@media only screen and (max-width:768px)
+{
+    section.secciones{height: max-content;}
+    .weapons{height: 100%;}
+    .weapons_row
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .weapons_category
+    {
+        height: 140px;
+    }
+    .weapons_container .weapons_category
+    {
+        width: 100%!important;
+    }
 }
 /*Weapons category images*/
 #ars_image
@@ -62,7 +102,7 @@ div.weapons_row
 }
 
 
-div.weapons_category:hover
+.weapons_category:hover
 {
     transform: scale(1.05,1.05);
 }
@@ -71,11 +111,11 @@ article.weapons_info p
     font-style: normal;
 }
 
-article.weapons_info
+.weapons_info
 {
     display: table;
 }
-div.weapons h3
+.weapons h3
 {
     font-style: italic;
     font-size: 35px;
@@ -87,10 +127,30 @@ article.weapons_info h3:first-child
 }
 article.weapons_info table
 {
-    float: left;
+    float: right;
     width: 50%;
 }
-
+@media only screen and (max-width:768px)
+{
+    .weapons_info
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .weapons_info_images
+    {
+        width: 100%!important;
+        margin-bottom: 20px;
+    }
+    .weapons_info h3
+    {
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;
+    }
+}
 /*Sidebar*/
 section.seccion_lateral
 {
@@ -118,7 +178,6 @@ section.seccion_lateral img.weapons_image_sidebar:hover
 /*Imagenes*/
 img.weapons_info_images
 {
-    float: left;
     width: 35%;    
 }
 article#weapons_info_smgs img.weapons_info_images

@@ -33,6 +33,7 @@ function esconderSecciones(id_imagen, id_info)
     //Quitando estilos que molestan
     row1.classList.remove('weapons_row');
     row2.classList.remove('weapons_row');
+    document.getElementById('weapons').classList.add('weapons_container')
 
     mostrarSidebar(`${id_imagen}_sidebar`);
 
