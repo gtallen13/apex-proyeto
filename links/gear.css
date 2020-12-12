@@ -1,14 +1,20 @@
 /*Informacion Principal*/
-
+@media only screen and (max-width:768px)
+{
+    section.secciones{padding: 40px 0 0 0;}
+}
 .item_attachments h2
 {
     text-align: left!important;
 }
 
-div.items
+.items
 {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: max-content;
 }
 /*Tablas*/
 .item_heals 
@@ -22,35 +28,44 @@ div.items
     margin-bottom: 50px;
 }
 
-img.gear_images
+.gear_images
 {
     height: 50px;
     width: 50px;
 }
-table.gear_table
+.gear_table
 {
     border-collapse: collapse;
     margin: 0px 30px 50px 30px;
     width: 70%;
 }
 
-table.gear_table td
+.gear_table td
 {
     border: 2px solid black;
     padding: 8px 8px 8px 8px;
     justify-content: center;
     width: 1px;
 }
-table.gear_table td:first-child
+.gear_table td:first-child
 {
     text-align: center;
 }
-table.gear_table thead tr td
+.gear_table thead tr td
 {
     font-size: large;
     font-weight: bold;
 }
 
+@media only screen and (max-width:768px)
+{
+    .gear_table
+    {
+        margin: 0 0 20px 0;
+        width: 100%;
+    }
+    .gear_table:last-child{margin: 0;}
+}
 .perk_rarity
 {
     font-size: 18px; 
@@ -82,7 +97,7 @@ p.gear_names
 }
 
 /*Iconos*/
-img.info_icons
+.info_icons
 {
     height: 15px;
     width: 15px;
@@ -91,7 +106,7 @@ img.info_icons
 }
 
 /*Menus*/
-menu.lvl_menus
+.lvl_menus
 {
     background-color: black;
     width: max-content;
@@ -103,7 +118,7 @@ menu.lvl_menus
     border-top-left-radius: 5px;
     border-top-right-radius:5px ;
 }
-menu.lvl_menus a
+.lvl_menus a
 {
     font-family: 'Teko', sans-serif;
     text-decoration: none;
@@ -114,15 +129,26 @@ menu.lvl_menus a
     transition-property: color , background-color;
     transition-duration: .5s;
 }
-menu.lvl_menus a:hover
+.lvl_menus a:hover
 {
     color: #ad1515;
     background-color: whitesmoke;
     cursor: pointer;
 }
-menu.lvl_menus a:last-child
+.lvl_menus a:last-child
 {
     border-right: none;
+}
+@media only screen and (max-width:768px)
+{
+    .lvl_menus
+    {
+        display: flex;
+        width: 100%;
+        margin: 0;
+        justify-content: center;
+    }
+
 }
 
 .default
