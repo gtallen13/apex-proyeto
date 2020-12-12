@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta name="description" content="Main Page">
         <meta name="author" content="George Allen">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name= "keywords" content="blog, apex legends, videogame, ps4,xbox,nintengo,PC">
         <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
@@ -16,8 +17,11 @@
     <body>
         <!--Menu-->
         <nav class = "menu">
+            <a href="./index.html"><img id="logo_menu" src="./src/images/apex-white-nav-logo.svg"></a>
+            <button class="hamburger" id="menu_btn">
+                <i class="fas fa-bars"></i>
+            </button>
             <ul>
-                <a href="./index.html"><img id="logo_menu" src="./src/images/apex-white-nav-logo.svg"></a>
                 <li><a href="./legends.html"> Legends </a></li>
                 <li><a href="./weapons.html"> Weapons </a></li>
                 <li><a href="./gear.html"> Gear </a></li>
@@ -315,5 +319,6 @@
         <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
         <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
         <script src="./js/news.js"></script>
+        <script src="./js/menu.js"></script>
     </body>
 </html>
