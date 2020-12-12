@@ -19,6 +19,7 @@ div.tooltips_info::after
     opacity: 0.8;
     padding-top: 0px;
     padding-bottom: 5px;
+    text-align: justify;
 }
 
 /*Tooltip Info*/

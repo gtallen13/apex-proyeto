@@ -36,7 +36,7 @@ tippy('#arcadia_supercarrier',
 {
     content: `<p>A massive vessel last seen leaving the planet Talos. It assisted Olympus with
     transportation of arms, vehicles, scientific equipment and personnel</p>`,
-    placement: 'left',
+    placement: 'right',
     allowHTML:true,
     animation:'scale',
     theme:'apex_legends',
@@ -60,7 +60,7 @@ tippy('#pp_grid',
 {
     content: `<p>To power such a large attraction takes a big effort. Power Grid 
     is split into two halves: Primary and Secondary.</p>`,
-    placement: 'left',
+    placement: 'right',
     allowHTML:true,
     animation:'scale',
     theme:'apex_legends',
@@ -84,7 +84,7 @@ tippy('#central_turbine',
 {
     content: `<p>Within the mountain facade lies this imposing circular location 
     that houses spinning fans above and below.</p>`,
-    placement: 'left',
+    placement: 'right',
     allowHTML:true,
     animation:'scale',
     theme:'apex_legends',
@@ -97,7 +97,7 @@ tippy('#autumn_estates',
     content: `<p>Far from the greasy, industrial clutter lies this idyllic 
     property where those needing rest and relaxation can escape to. Residential 
     housing for the wealthy are evenly distributed on golden brown plots of land.</p>`,
-    placement: 'left',
+    placement: 'right',
     allowHTML:true,
     animation:'scale',
     theme:'apex_legends',
@@ -123,7 +123,7 @@ tippy('#energy_depot',
     content: `<p>Slick, clean, with function over form. This industrial housing 
     stores and charges hundreds of batteries that are then used to power many of
     the assets seen throughout Olympus.</p>`,
-    placement: 'left',
+    placement: 'right',
     allowHTML:true,
     animation:'scale',
     theme:'apex_legends',
@@ -147,7 +147,7 @@ tippy('#grow_towers',
 {
     content: `<p>Slowly rotating sniper perches of doom. Times three. These ornate 
     structures overlook a large agricultural landscape below.</p>`,
-    placement: 'left',
+    placement: 'right',
     allowHTML:true,
     animation:'scale',
     theme:'apex_legends',
@@ -174,7 +174,7 @@ tippy('#solar_array',
     content: `<p>Olympus requires a lot of power, and this sector serves as one many 
     to keep this gravity defying city afloat. This dense, solar-powered sector acts 
     as both a chokepoint and POI.</p>`,
-    placement: 'left',
+    placement: 'right',
     allowHTML:true,
     animation:'scale',
     theme:'apex_legends',
@@ -199,7 +199,7 @@ tippy('#hydroponics',
     content: `<p>Within these sprawling agricultural grounds, rounded top buildings 
     and iconic silos are arranged throughout. The curved farmlands and algae green pools 
     add to its uniqueness.</p>`,
-    placement: 'left',
+    placement: 'right',
     allowHTML:true,
     animation:'scale',
     theme:'apex_legends',
