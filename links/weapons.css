@@ -180,11 +180,7 @@ article.weapons_info table
     }
 
 }
-/*Animaciones Sidebar*/
-.weapons_image_sidebar:hover
-{
-    transform: scale(1.15,1.15);
-}
+
 /*Imagenes*/
 img.weapons_info_images
 {
@@ -220,4 +216,10 @@ table.stats_table td, th
     border: 2px solid black;
     text-align: left;
     padding: 8px;
+}
+
+@media only screen and (max-width:768px)
+{
+    table.stats_table td, th{padding: 3px;}
+
 }
