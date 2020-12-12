@@ -1,88 +1,96 @@
-div.intro_info
+.intro_info
 {
     display: flex;
 }
-div.intro_info p
+.intro_info p
 {
     float: left;
     margin-left: 50px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-div.intro_info img
+.intro_info img
 {
     height: 200px;
     width: 300px;
     float: left;
 }
-div.hobbies_rows::after
+.grid-3
 {
-    content: "";
-    display: table;
-    clear: both;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
-
-div.hobbies_columns
+.hobbies_info
 {
-    width: 33.33%;
-    float: left;
-    align-items: center;
+    justify-content: center;
     display: flex;
     flex-direction: column;
 }
-
+.hobbies_info div 
+{
+    height: 200px;
+    width: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 4px 7px grey;
+    transition-property: background-image;
+    transition-duration: 1s;
+}
+section.secciones {padding-top: 30px;}
+@media only screen and (max-width:768px)
+{
+    .intro_info
+    {
+        text-align: justify;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .intro_info p{margin: 20px 0 0 0;}
+    .info h1 
+    {
+        text-align: center;
+        margin-top: 150px;
+    }
+    .intro_info img 
+    {
+        width: 100%;
+        height: 300px;
+    }
+    .grid-3
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .hobbies_info{margin-top: 30px;}
+    .hobbies_info div   
+    {   
+        width: 100%;
+        height: 250px;
+    }
+}
 /*Imagenes*/
-div#arts_image
-{
-    height: 200px;
-    width: 300px;
-    background-image: url("../src/images/arts_image.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 2px 4px 7px grey;
-    transition-property: background-image;
-    transition-duration: 1s;
-}
-div#esports_image
-{
-    height: 200px;
-    width: 300px;
-    background-image: url("../src/images/esports-logo.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 2px 4px 7px grey;
-    transition-property: background-image, background-size;
-    transition-duration: 1s;
-
-}
-div#tech_image
-{
-    height: 200px;
-    width: 300px;
-    background-image: url("../src/images/tech.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 2px 4px 7px grey;
-    transition-property: background-image;
-    transition-duration: 1s;
-}
+#arts_image
+{background-image: url("../src/images/arts_image.jpg");}
+#esports_image
+{background-image: url("../src/images/esports-logo.png");}
+#tech_image
+{background-image: url("../src/images/tech.jpg");}
 
 /*Animaciones*/
-div#arts_image:hover
+#arts_image:hover
 {
     background-image: url("../src/images/me_adelle.png");
 }
 
-div#esports_image:hover
+#esports_image:hover
 {
     background-image: url("../src/images/me_nrg.png");
     background-size: contain;
 }
 
-div#tech_image:hover
+#tech_image:hover
 {
     background-image: url("../src/images/me_tech.png");
 }
