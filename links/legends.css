@@ -25,15 +25,21 @@
     position: relative;
     display: flex;
 }
-@media only screen and (max-width:768px)
+@media only screen and (max-width:768px),
+                    (min-device-width: 768px) 
+                    and (max-device-width: 1024px)
+                    and (orientation: portrait)
+                    and (-webkit-min-device-pixel-ratio: 2)
 {
     .legends_text
     {
-        height: 110vh;
+        height: max-content;
+        margin-bottom: 50px;
     }
     .legends_text h3{font-size: 40px;margin-bottom: 5px;}
     .legends_text i{font-size: 30px;}
 }
+
 /*Imagenes de Leyendas*/
 .legends_pics
 {
@@ -47,7 +53,11 @@
     box-shadow: 5px 10px 5px grey;
     border-radius: 10px;
 }
-@media only screen and (max-width:728px)
+@media only screen and (max-width:728px),
+(min-device-width: 768px) 
+and (max-device-width: 1024px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 2)
 {
     .legends_pics
     {
