@@ -1,0 +1,214 @@
+/*Responsive for iPads*/
+/*iPad Pro 9.7" - Portrait*/
+@media only screen and (min-device-width: 768px) 
+                    and (max-device-width: 1024px)
+                    and (orientation: portrait)
+                    and (-webkit-min-device-pixel-ratio: 2)
+                    
+{
+    /*Menu*/
+    img#logo_menu
+    {
+        height: 60px;
+        width: 60px;
+    }
+    .hamburger{
+        display: block; 
+        font-size: 40px!important;
+    }
+    a{display: flex;}
+    .menu
+    {
+        position: fixed; 
+        z-index: 2;
+    }
+    .menu ul
+    {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+    }
+    .menu ul li a
+    {
+        margin-top:30px;
+        font-size: 50px; 
+    }
+    .menu.opaque{opacity: .85;}
+    .menu ul.show
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: baseline;
+        height: 100vh;
+    }
+    #menu_btn
+    {
+        position: absolute;
+        top: 10px;
+        left: 110px;
+        cursor: pointer;
+        opacity: .8;
+        font-size: 35px;
+        transition: opacity .5s;
+    }
+
+    #menu_btn:hover
+    {
+        opacity: 1;
+    }
+    /*Banner*/
+    #banner_info h1 
+    {
+        font-size: 150px!important;
+    }
+    /*History text*/
+    .grid-2
+    {
+        justify-content: space-between;
+        align-items: center;        
+        display: flex;
+        flex-direction: column;
+    } 
+    section.secciones p
+    {
+        font-size: 28px;
+    }
+    /*News*/
+    .grid-3_news
+    {
+        width: 95%;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .grid-3_news .news_info
+    {
+        width: 80%;
+        margin: 15px 0 0 0;
+        height: 550px;
+    }
+    .grid-3_news .news_info h5
+    {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0;
+        height: 80px;
+        font-size: 40px;
+    }
+
+    .grid-3_news .news_info img
+    {
+        height: 350px;
+    }
+}
+
+/*Responsive for iPads*/
+/*iPad Pro 12.9" - Portrait*/
+@media only screen and (min-device-width: 1024px) 
+                    and (max-device-height: 1366px)
+                    and (orientation: portrait)
+                    and (-webkit-min-device-pixel-ratio: 2)
+                    
+{
+    /*Menu*/
+    img#logo_menu
+    {
+        height: 60px;
+        width: 60px;
+    }
+    .hamburger{
+        display: block; 
+        font-size: 40px!important;
+    }
+    a{display: flex;}
+    .menu
+    {
+        height: 100px;
+        position: fixed; 
+        z-index: 2;
+    }
+    .menu ul
+    {
+        display: none!;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .menu ul li a
+    {
+        margin-top:30px;
+        font-size: 50px; 
+    }
+    .menu.opaque{opacity: .85;}
+    .menu ul.show
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: baseline;
+        height: 100vh;
+    }
+    #menu_btn
+    {
+        position: absolute;
+        top: 10px;
+        left: 110px;
+        cursor: pointer;
+        opacity: .8;
+        font-size: 35px;
+        transition: opacity .5s;
+    }
+
+    #menu_btn:hover
+    {
+        opacity: 1;
+    }
+    /*Banner*/
+    #banner_info h1 
+    {
+        font-size: 150px!important;
+    }
+    /*History text*/
+    .grid-2
+    {
+        justify-content: space-between;
+        align-items: center;        
+        display: flex!important;
+    } 
+    section.secciones p
+    {
+        font-size: 40px!important;
+    }
+    /*News*/
+    .grid-3_news
+    {
+        width: 95%;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .grid-3_news .news_info
+    {
+        width: 80%;
+        margin: 15px 0 0 0;
+        height: 550px;
+    }
+    .grid-3_news .news_info h5
+    {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0;
+        height: 80px;
+        font-size: 40px;
+    }
+
+    .grid-3_news .news_info img
+    {
+        height: 350px;
+    }
+}

@@ -1,3 +1,5 @@
+@import url(./main_iPads.css);
+
 .esconder
 {
     display: none;
@@ -176,55 +178,6 @@ img#logo_menu
 
 
 }
-@media only screen and (min-width:1024px)
-{
-    img#logo_menu
-    {
-        height: 80px;
-        width: 80px;
-    }
-    .hamburger{
-        display: block; 
-        font-size: 50px!important;
-    }
-    a{display: flex;}
-    .menu
-    {
-        position: fixed; 
-        z-index: 2;
-    }
-    .menu ul
-    {
-        display: none;
-        width: 100%;
-        flex-direction: column;
-    }
-    .menu ul li a{margin-top:30px;font-size: 50px;}
-    .menu.opaque{opacity: .85;}
-    .menu ul.show
-    {
-        display: flex;
-        flex-direction: column;
-        justify-content: end;
-        align-items: baseline;
-        height: 100vh;
-    }
-    #menu_btn
-    {
-        position: absolute;
-        top: 10px;
-        left: 110px;
-        cursor: pointer;
-        opacity: .8;
-        font-size: 35px;
-        transition: opacity .5s;
-    }
-
-    #menu_btn:hover
-    {
-        opacity: 1;
-    }
-}
 /*Menu Animaciones*/
 nav.menu ul li a:hover
 {
@@ -339,20 +292,7 @@ section.secciones h2
         font-size: 25px;
     }
 }
-@media only screen and (min-width:1024px)
-{
-    .grid-2
-    {
-        justify-content: space-between;
-        align-items: center;        
-        display: flex;
-        flex-direction: column;
-    } 
-    section.secciones p
-    {
-        font-size: 28px;
-    }
-}
+
 
 #video_week
 {
@@ -461,41 +401,8 @@ section.secciones h2
     }
     .grid-3_news .news_info img
     {
-
         height: 300px;
-    }
-    
-}
-@media only screen and (min-width:1024px)
-{
-    .grid-3_news
-    {
-        width: 95%;
-        justify-content: space-between;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-    }
-    .grid-3_news .news_info
-    {
-        width: 80%;
-        margin: 15px 0 0 0;
-        height: 550px;
-    }
-    .grid-3_news .news_info h5
-    {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        padding: 0;
-        height: 80px;
-        font-size: 40px;
-    }
-
-    .grid-3_news .news_info img
-    {
-        height: 350px;
-    }
+    }   
 }
 
 
