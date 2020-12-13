@@ -132,7 +132,7 @@
     }
     .menu ul
     {
-        display: none!;
+        display: none;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -188,14 +188,14 @@
         width: 95%;
         justify-content: space-between;
         align-items: center;
-        display: flex;
+        display: flex!important;
         flex-direction: column;
     }
     .grid-3_news .news_info
     {
         width: 80%;
         margin: 15px 0 0 0;
-        height: 550px;
+        height: 650px!important;
     }
     .grid-3_news .news_info h5
     {
@@ -204,11 +204,30 @@
         flex-direction: column;
         padding: 0;
         height: 80px;
-        font-size: 40px;
+        font-size: 50px!important;
     }
 
     .grid-3_news .news_info img
     {
-        height: 350px;
+        height: 400px!important;
+    }
+
+    /*Video Section*/
+    #video_week
+    {
+        display: flex;
+        flex-direction: column;
+        margin-top:90px;
+    }
+    #video_week video#video_play
+    {
+        width:  100%!important;
+        height: 100%!important;
+        margin: 0 auto;
+        box-shadow: 2px 4px 5px black;
+        background-image: url("../src/images/lulu.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
