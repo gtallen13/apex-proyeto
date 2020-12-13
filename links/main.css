@@ -83,7 +83,6 @@ div#banner_info
     justify-content: center;
     margin: 0 10px 0 10px;
     transition: all .5s;
-
 }
 
 .menu ul li a
@@ -175,9 +174,60 @@ img#logo_menu
     {
       position: relative;  
     }
-
-
 }
+@media only screen and (min-device-width: 1024px) 
+                    and (max-device-height: 1366px)
+                    and (orientation: portrait)
+                    and (-webkit-min-device-pixel-ratio: 2)
+{
+    /*Menu*/
+    img#logo_menu
+    {
+        height: 80px;
+        width: 80px;
+    }
+    .hamburger{
+        display: block; 
+        font-size: 40px!important;
+    }
+    a{display: flex;}
+    .menu
+    {
+        position: fixed; 
+        z-index: 2;
+    }
+    .menu ul
+    {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+    }
+    .menu ul li a
+    {
+        margin-top:30px;
+        font-size: 50px; 
+    }
+    .menu.opaque{opacity: .85;}
+    .menu ul.show
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: baseline;
+        height: 100vh;
+    }
+    #menu_btn
+    {
+        position: absolute;
+        top: 5px;
+        left: 130px;
+        cursor: pointer;
+        opacity: .8;
+        font-size: 50px!important;
+        transition: opacity .5s;
+    }
+}
+
 /*Menu Animaciones*/
 nav.menu ul li a:hover
 {

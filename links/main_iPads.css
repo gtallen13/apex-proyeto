@@ -113,59 +113,7 @@
                     and (-webkit-min-device-pixel-ratio: 2)
                     
 {
-    /*Menu*/
-    img#logo_menu
-    {
-        height: 60px;
-        width: 60px;
-    }
-    .hamburger{
-        display: block; 
-        font-size: 40px!important;
-    }
-    a{display: flex;}
-    .menu
-    {
-        height: 100px;
-        position: fixed; 
-        z-index: 2;
-    }
-    .menu ul
-    {
-        display: none;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-    .menu ul li a
-    {
-        margin-top:30px;
-        font-size: 50px; 
-    }
-    .menu.opaque{opacity: .85;}
-    .menu ul.show
-    {
-        display: flex;
-        flex-direction: column;
-        justify-content: end;
-        align-items: baseline;
-        height: 100vh;
-    }
-    #menu_btn
-    {
-        position: absolute;
-        top: 10px;
-        left: 110px;
-        cursor: pointer;
-        opacity: .8;
-        font-size: 35px;
-        transition: opacity .5s;
-    }
 
-    #menu_btn:hover
-    {
-        opacity: 1;
-    }
     /*Banner*/
     #banner_info h1 
     {
@@ -195,7 +143,7 @@
     {
         width: 80%;
         margin: 15px 0 0 0;
-        height: 650px!important;
+        height: 700px!important;
     }
     .grid-3_news .news_info h5
     {
@@ -203,7 +151,7 @@
         justify-content: center;
         flex-direction: column;
         padding: 0;
-        height: 80px;
+        height: 100px!important;
         font-size: 50px!important;
     }
 
@@ -221,7 +169,7 @@
     }
     #video_week video#video_play
     {
-        width:  100%!important;
+        width:  100%;
         height: 100%!important;
         margin: 0 auto;
         box-shadow: 2px 4px 5px black;
@@ -230,4 +178,10 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+
+    footer.footer 
+    {
+        height: 100px!important;
+    }
+    footer.footer p{font-size: 30px!important;}
 }
