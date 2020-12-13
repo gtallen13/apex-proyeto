@@ -120,13 +120,9 @@ article.weapons_info p
     font-size: 35px;
     margin-top: 250px;
 }
-article.weapons_info h3:first-child
-{
-    margin-top: 10px;
-}
+
 article.weapons_info table
 {
-    float: right;
     width: 50%;
 }
 @media only screen and (max-width:768px)
@@ -184,13 +180,10 @@ article.weapons_info table
 /*Imagenes*/
 img.weapons_info_images
 {
-    width: 35%;    
-}
-article#weapons_info_smgs img.weapons_info_images
-{
     float: left;
-    width: 35%;   
-    height: 160px; 
+    width: 30%;   
+    height: 100px; 
+    margin-right: 50px; 
 }
 
 img.ammo_icons
@@ -221,5 +214,20 @@ table.stats_table td, th
 @media only screen and (max-width:768px)
 {
     table.stats_table td, th{padding: 3px;}
+}
+
+@media only screen and (min-device-width: 768px) 
+                    and (max-device-width: 1024px)
+                    and (orientation: portrait)
+                    and (-webkit-min-device-pixel-ratio: 2)
+{
+    table.stats_table{width: 80%!important;}
+    table.stats_table td, th{font-size: 30px;}
+    table.stats_table img
+    {
+        height: 30px;
+        width: 50px;
+    }
+    .weapons_info_images{height: 190px!important;width: 95%!important;}
 
 }
