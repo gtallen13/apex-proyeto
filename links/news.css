@@ -261,6 +261,8 @@ and (max-device-width: 1024px)
 and (orientation: portrait)
 and (-webkit-min-device-pixel-ratio: 2)
 {
+    h4.pio_titles{font-size: 45px;}
+    i{font-size: 40px!important;}
     .tippy-content
     {
         width: 300px!important;
