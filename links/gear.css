@@ -1,8 +1,3 @@
-/*Informacion Principal*/
-@media only screen and (max-width:768px)
-{
-    section.secciones{padding: 40px 0 0 0;}
-}
 .item_attachments h2
 {
     text-align: left!important;
@@ -71,6 +66,22 @@
     }
     .gear_table:last-child{margin: 0;}
 }
+
+@media only screen and (min-device-width: 768px) 
+and (max-device-width: 1024px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 2)
+{
+    .gear_table th,td{font-size: 30px;padding:0;}
+    section.secciones p {font-size: 30px!important;}
+    .gear_images
+    {
+        height: 60px;
+        width: 60px;
+    }
+    .perk_rarity{font-size: 25px!important;}
+}
+
 .perk_rarity
 {
     font-size: 18px; 
@@ -153,7 +164,14 @@ p.gear_names
         margin: 0;
         justify-content: center;
     }
+}
 
+@media only screen and (min-device-width: 768px) 
+and (max-device-width: 1024px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 2)
+{
+    .lvl_menus a{font-size: 30px!important;}
 }
 
 .default
