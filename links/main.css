@@ -95,6 +95,7 @@ div#banner_info
     text-decoration: none;
     font-size: 30px;
     margin-left: 20px;
+    margin-bottom: 0;
     background: linear-gradient(to right, white, white 50%, gray 50%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -358,13 +359,21 @@ section.secciones h2
     flex-direction: column;
     margin-top:90px;
 }
+#video_week cite,a
+{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    font-size: 20px;
+}
 #video_week video#video_play
 {
     width:  90%;
-    height: 90%;
+    height: 90vh;
     margin: 0 auto;
     box-shadow: 2px 4px 5px black;
-    background-image: url("../src/images/lulu.png");
+    background-image: url("../src/images/NRG-esports-team.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
