@@ -129,27 +129,18 @@ section.secciones h1{padding: 0!important;margin: 0!important;}
         background-position: 0 30%;
     }
 }
-/*Imagenes*/
-#arts_image
-{background-image: url("../src/images/arts_image.jpg");}
-#esports_image
-{background-image: url("../src/images/esports-logo.png");}
-#tech_image
-{background-image: url("../src/images/tech.jpg");}
-
-/*Animaciones*/
-#arts_image:hover
+@media only screen and (max-device-width: 1024px)
+and (orientation: portrait), (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 2)
 {
-    background-image: url("../src/images/me_adelle.png");
-}
+    section.secciones
+    {
+        padding-top: 100px;
+        height: 100vh;
+    }
+    .intro_info img {width: 100%;height: 50vh;}
+    .intro_info .social_media{margin-top: 40px;}
+    .social_media a{font-size: 35px!important;}
+    .social_media a i {font-size: 40px!important;}
 
-#esports_image:hover
-{
-    background-image: url("../src/images/me_nrg.png");
-    background-size: contain;
-}
-
-#tech_image:hover
-{
-    background-image: url("../src/images/me_tech.png");
 }

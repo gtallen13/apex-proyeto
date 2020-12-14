@@ -107,6 +107,7 @@ and (-webkit-min-device-pixel-ratio: 2)
 }
 
 /*Patch Notes*/
+section.secciones h1{margin: 0;}
 .news_info h3
 {
     font-size: 30px;
