@@ -176,10 +176,30 @@ p.gear_names
 
 @media only screen and (min-device-width: 768px) 
 and (max-device-width: 1024px)
-and (orientation: portrait)
+and (orientation: portrait),(orientation: landscape)
 and (-webkit-min-device-pixel-ratio: 2)
 {
+    .lvl_menus
+    {
+        display: flex;
+    }
     .lvl_menus a{font-size: 30px!important;}
+    .gear_table td,th
+    {
+        font-size: 30px!important;
+    }
+}
+@media screen and (min-width:1400px)
+{
+    .lvl_menus a
+    {
+        font-size: 35px!important;
+    }
+    .gear_table td,th
+    {
+        font-size: 30px!important;
+    }
+    .perk_rarity{font-size: 30px;}
 }
 
 .default
