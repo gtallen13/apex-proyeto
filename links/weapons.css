@@ -74,6 +74,17 @@ section.secciones h2
         width: 100%!important;
     }
 }
+@media screen and (min-width:1400px)
+{
+    .weapons_category{height: 350px;}
+    .weapons_info_images
+    {
+        height: 200px!important;
+        width: 50%!important;
+        margin-bottom: 40px;
+    }
+
+}
 /*Weapons category images*/
 #ars_image
 {
@@ -145,6 +156,10 @@ article.weapons_info table
         justify-content: space-between; 
         align-items: center;
     }
+}
+@media screen and (min-width:1400px)
+{   
+    .weapons_info h3{font-size: 40px!important;}
 }
 /*Sidebar*/
 .seccion_lateral
@@ -229,5 +244,19 @@ table.stats_table td, th
         width: 50px;
     }
     .weapons_info_images{height: 190px!important;width: 95%!important;}
-
+}
+@media screen and (min-width:1400px)
+{
+    table.stats_table
+    {
+        width: 40%!important;
+        min-width: 623px;
+        margin: 0!important;
+    }
+    table.stats_table td, th{font-size: 30px;}
+    table.stats_table img
+    {
+        height: 30px;
+        width: 50px;
+    }
 }
